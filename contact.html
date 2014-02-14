@@ -1,0 +1,28 @@
+---
+layout: default
+title: index page title
+description: here is some page meta content
+keywords: keyword1, keyword2
+---
+
+
+<h1>contact page</h1>
+
+
+<a href="http://getsimpleform.com">http://getsimpleform.com</a>
+
+
+ <form action="http://getsimpleform.com/messages?form_api_token=8a1414a224e622757559d5f523ebf0e8" method="post">
+
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='localhost:4000/index.html' />
+
+        <!-- all your input fields here.... -->
+   
+         <input name='content' type='text' />
+      
+            <textarea name="message"></textarea>
+         
+
+        <input type='submit' value='Submit' />
+      </form>
