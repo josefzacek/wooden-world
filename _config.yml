@@ -1,5 +1,5 @@
-name: jekyll starter pack
+name: Wooden World
 markdown: redcarpet
 pygments: true
-baseurl: jekyll starter-pack
+baseurl: wooden-world
 exclude: []
