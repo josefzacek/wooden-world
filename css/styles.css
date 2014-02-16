@@ -4,15 +4,36 @@
 
 /* mobile properties*/
 
+    /*index page */
+    #home section img {
+        max-width: 21px;
+    }
 
 
     /* contact page */
-    #map_canvas {
+    #contact address, #contact p {
+        text-align: center;
+    }
+    #contact #map_canvas {
         height: 200px;
         border: 13px solid #fff;
         -moz-border-radius: 15px;
         -webkit-border-radius: 15px;
         border-radius: 15px;
+        transition:All 0.7248s linear;
+	-webkit-transition:All 0.7248s linear;
+	-moz-transition:All 0.7248s linear;
+    }
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact textarea {
+        width: 90%;
+        border: 2px solid #74b91e;
+        padding: 1.2%;  
+    } 
+    #contact textarea {
+        height: 145px;
     }
    
 
@@ -24,8 +45,17 @@
     
     
     /* contact page */
-    #map_canvas {
-        height: 350px;
+    #contact address {
+        margin-left: 15%;
+    }
+     #contact address, #contact p {
+        text-align: left;
+    }
+     #contact .address {
+         margin-left: 50px;
+     }
+    #contact #map_canvas {
+        height: 220px;
     }
 
 	
@@ -33,7 +63,11 @@
 
 /* desktop properties */
 @media only screen and (min-width: 769px) {
- 
+    
+    /* contact page */
+     #contact #map_canvas {
+        height: 350px;
+    }
     
     
 }

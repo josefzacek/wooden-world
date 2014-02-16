@@ -290,7 +290,7 @@ select,
 textarea {
     font-family: inherit; /* 1 */
     font-size: 100%; /* 2 */
-    margin: 0; /* 3 */
+    margin: 0; /* 3 */ 
 }
 
 /**
@@ -392,6 +392,7 @@ input::-moz-focus-inner {
 textarea {
     overflow: auto; /* 1 */
     vertical-align: top; /* 2 */
+    resize: none;
 }
 
 /* ==========================================================================
@@ -472,7 +473,9 @@ article h1 span {
 h1, h2, h3 {
     font-family: 'Lobster', cursive;
     font-weight: normal;
+    text-align: center;
 }
+
 /* wrapper */
 #wrapper {
     width: 98%;
@@ -600,7 +603,9 @@ footer a {
   body {
 	  font-size:85%;
   }
-    
+  h1, h2, h3 {
+      text-align: left;
+  } 
   .logo {
        max-width: 120px; 
   }
