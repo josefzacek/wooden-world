@@ -536,7 +536,10 @@ footer {
     text-align: center;
     clear: both;
     margin-bottom: 28px;
-}        
+}     
+footer ul {
+    padding: 0;
+}
 footer ul li {
     list-style: none;
     display: inline-block
@@ -577,7 +580,8 @@ footer a {
       padding: 0.5%;
   }
   .two_third  {
-	  width: 66.6%;
+	  width: 65.6%;
+      padding: 0.5%;
   }
   .one_fourth  {
 	  width: 50%;
