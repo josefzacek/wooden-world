@@ -1,5 +1,5 @@
 name: Wooden World
 markdown: redcarpet
 pygments: true
-baseurl: josefzacek.github.io/wooden-world
+baseurl: http://josefzacek.github.io/wooden-world
 exclude: [_site]
