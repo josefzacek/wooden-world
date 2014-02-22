@@ -1,5 +1,5 @@
 name: Wooden World
 markdown: redcarpet
 pygments: true
-baseurl: wooden-world
-exclude: []
+baseurl: wooden-world.josefzacek.com
+exclude: [_site]
