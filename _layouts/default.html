@@ -1,45 +1,45 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ page.title }}</title>
-  <meta name="author" content="www.josefzacek.com">
-  <meta name="description" content="{{ page.description }}">
-  <meta name="keywords" content="{{ page.keywords }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" />
-  <link rel="stylesheet" href="{{site.baseurl}}/css/reset-common.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/css/slideshow.css"/>
-  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-  <!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="author" content="www.josefzacek.com">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" />
+    <link rel="stylesheet" href="{{site.baseurl}}/css/reset-common.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/slideshow.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+  	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
 
-<body>
-<!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-<div id="wrapper">
+    <div id="wrapper">
 
-    {% include header.html %}
-    
-    {{ content }}
-    
-    {% include footer.html %}
+      {% include header.html %}
 
-</div>
-<!-- wrapper end -->
-    
+      {{ content }}
+
+      {% include footer.html %}
+
+    </div>
+    <!-- wrapper end -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="{{site.baseurl}}/js/tinynav.min.js"></script>
     <script src="{{site.baseurl}}/js/scripts.js"></script>
     <script src="{{site.baseurl}}/js/css3-mediaqueries.js"></script>
-    <script src="{{site.baseurl}}/js/responsive-slides.min.js"></script>   
+    <script src="{{site.baseurl}}/js/responsive-slides.min.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -50,5 +50,5 @@
       ga('send', 'pageview');
 
     </script>
-</body>
+  </body>
 </html>
